@@ -17,8 +17,8 @@ def adicionarProduto(lista):
         produto = ((cel_nome, cel_avaliacao, cel_preco))
         lista.append(produto)
         
-        print(lista)
-        print()
+    print(lista)
+    print()
 
 driver = webdriver.Edge()
 driver.get('https://www.zoom.com.br/')
